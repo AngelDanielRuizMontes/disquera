@@ -13,7 +13,7 @@
 <body>
 
     <?php
-    $conexion = mysqli_connect("db", "root", "test", "disquera");
+    $conexion = mysqli_connect("xxxxxx", "xxxxxx", "xxxxxx", "xxxxxx");
     $consulta = mysqli_query($conexion, "SELECT * FROM grupo");
     ?>
 
