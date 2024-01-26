@@ -13,7 +13,7 @@
 <body>
 
     <?php
-    $conexion = mysqli_connect("db", "root", "test", "disquera");
+    $conexion = mysqli_connect("xxxxxx", "xxxxxx", "xxxxxx", "xxxxxx");
     $consulta = mysqli_query($conexion, "SELECT disco.*, grupo.Grupo FROM disco join grupo on disco.CodGrupo = grupo.CodGrupo where CodDisco=:CodDisco");
     ?>
 
