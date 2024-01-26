@@ -29,7 +29,7 @@
         <div class="card">
             <h1 class="text-center">Disquera Turing</h1>
 
-            <form action="index.php" method="post">
+            <form action="grupo.php" method="post">
                 <input type="hidden" name="CodGrupoAntiguo" value="<?= $CodGrupo ?>">
                 <input type="hidden" name="accion" value="modificar">
                 <div class="mb-3 aire">
