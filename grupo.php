@@ -63,7 +63,7 @@
                         <td><?= $registro['Grupo'] ?></td>
                         <td><?= $registro['Genero'] ?></td>
                         <td>
-                            <form action="index.php" method="post">
+                            <form action="grupo.php" method="post">
                                 <input type="hidden" name="accion" value="eliminar">
                                 <input type="hidden" name="CodGrupo" value="<?= $registro['CodGrupo'] ?>">
                                 <button type="submit" class="btn btn-danger">
