@@ -88,7 +88,7 @@
                 <?php
                 }
                 ?>
-                <form action="index.php" method="post">
+                <form action="grupo.php" method="post">
                     <input type="hidden" name="accion" value="insertar">
                 <tr>
                     <td><input type="text" name="CodGrupo" size="10" ></td>
